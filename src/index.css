@@ -1,0 +1,152 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+.containerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5%;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.colorApps{
+    color: gray;
+}
+
+.apps{
+    padding: 0.6em;
+    border-radius: 18px;
+}
+
+.apps:hover{
+    background-color: rgba(60, 64, 67, .08);
+}
+
+.gmailImagen:hover{
+    border-bottom: 1px solid;
+}
+
+.buttonLogin{
+    width: 130px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background: #1a73e8;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.buttonLogin:hover{
+    background: #0a5ecc;
+}
+
+.img{
+    width: 20%;
+}
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+}
+
+.inputSearch{
+    width: 40%;
+    height: 44px;
+    border-radius: 20px;
+    border: 1px solid #d0d0d0;
+}
+
+.inputSearch:hover{
+    box-shadow: 1px 1px 3px 3px #00000014;
+}
+/* 1em equivale a 16 px */
+.containerSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.styleInput{
+    width: 30%;
+    position: absolute;
+    top: 13.6em;
+    left: 32.5%;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.iconSearch{
+    position: absolute;
+    left: 31%;
+    color: hsl(11deg 3.95% 70.75%);
+}
+
+.iconMicrophone{
+    position: absolute;
+    right: 35%;
+    font-size: 1.3em;
+    background-image: linear-gradient(#ff0000, #ffff00, #0000ff, blue);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;;
+}
+
+.iconImg{
+    position: absolute;
+    right: 32%;
+    font-size: 1.3em;
+    background-image: linear-gradient(#ff0000, #ffff00, #0000ff, blue);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.containerElements{
+    justify-content: center;
+    gap: 1.5%;
+    display: grid;
+    padding-top: 2.5em;
+}
+
+.containerButtons{
+    display: flex;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.styleButtons{
+    width: 11em;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    background: #f8f9fa;
+    cursor: pointer;
+    font-size: 14.5px;
+    cursor: pointer;
+}
+
+.styleButtons:hover{
+    border: 1px solid #dbdbdb;
+}
+
+.styleLink{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
